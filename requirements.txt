@@ -1,0 +1,14 @@
+pandas
+chromadb
+tqdm
+numpy
+sentence_transformers
+openai
+google
+textwrap
+requests
+beautifulsoup4
+trafilatura
+gradio
+IPython
+matplotlib
