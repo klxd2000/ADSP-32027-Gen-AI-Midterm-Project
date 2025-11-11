@@ -20,7 +20,7 @@ Repository: https://github.com/klxd2000/ADSP-32027-Gen-AI-Midterm-Project
 ├─ GenAI_Midterm_clean.ipynb    # cleaned preview without widget metadata (for GitHub rendering)
 ├─ GenAI_Midterm.py             # optional: script version converted from the notebook
 ├─ docs/
-│  └─ post.html                 # optional: exported HTML snapshot for GitHub Pages
+   └─ post.html                 # optional: exported HTML snapshot for GitHub Pages
 ```
 
 ## 🚀 Quick Start
@@ -34,15 +34,11 @@ jupyter lab  # or: jupyter notebook
 Open `GenAI_Midterm.ipynb` and **Run All** from top to bottom.
 
 ## 🧩 Environment
-Typical packages used:
-- `numpy`, `pandas`, `scikit-learn`, `matplotlib`
-- (Optional depending on your code) `torch`, `transformers`, `faiss-cpu`, `ipywidgets`
-
-> If you don’t maintain a `requirements.txt`, you can start with:
-> ```bash
-> pip install numpy pandas scikit-learn matplotlib
-> ```
-> and add others as the notebook requests.
+Required (from this notebook):
+- numpy, pandas, matplotlib
+- sentence-transformers, chromadb, tqdm
+- beautifulsoup4, trafilatura
+- gradio, IPython
 
 ## ⚙️ Configuration
 At the top of the notebook, define a simple **config cell** with reproducible defaults:
