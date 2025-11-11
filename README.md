@@ -7,12 +7,11 @@ Repository: https://github.com/klxd2000/ADSP-32027-Gen-AI-Midterm-Project
 - 📓 Full notebook: [`GenAI_Midterm.ipynb`](./GenAI_Midterm.ipynb)
 - 🧹 Clean preview (for GitHub rendering): [`GenAI_Midterm_clean.ipynb`](./GenAI_Midterm_clean.ipynb)
 - ▶️ Open in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/klxd2000/ADSP-32027-Gen-AI-Midterm-Project/blob/main/GenAI_Midterm.ipynb)
-- 🌐 (Optional) GitHub Pages snapshot: will be available at `https://klxd2000.github.io/ADSP-32027-Gen-AI-Midterm-Project/` once Pages is enabled (see “Export HTML & Pages”).
 
 ## 📌 Summary
-- **Goal:** demonstrate a compact retrieval + generation setup with sensible defaults and transparent evaluation.
-- **Approach:** embeddings + vector search (e.g., FAISS) + structured prompting; keep a single “config cell” to drive the pipeline.
-- **Outcome:** a restartable, top‑down notebook that reports retrieval metrics (e.g., Precision@k / Recall@k) and shows example answers.
+- **Goal:** build a Retrieval-Augmented Generation (RAG) system to answer admissions-related queries for the UChicago MS-ADS program.
+- **Approach:** sentence-Transformers embeddings + vector similarity search (top-k) with structured prompting; a single config cell controls defaults and reproducibility..
+- **Outcome:** end-to-end RAG pipeline implementation and user-friendly chatbot web interface.
 
 ## 🗂 Repository Structure
 ```
@@ -22,7 +21,6 @@ Repository: https://github.com/klxd2000/ADSP-32027-Gen-AI-Midterm-Project
 ├─ GenAI_Midterm.py             # optional: script version converted from the notebook
 ├─ docs/
 │  └─ post.html                 # optional: exported HTML snapshot for GitHub Pages
-└─ assets/                      # optional figures/screenshots
 ```
 
 ## 🚀 Quick Start
