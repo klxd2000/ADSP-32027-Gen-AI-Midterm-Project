@@ -67,5 +67,11 @@ Then open **Settings → Pages**:
 
 After publishing, visit: `https://klxd2000.github.io/ADSP-32027-Gen-AI-Midterm-Project/`
 
+## 👥 Team
+- Lejun Liu ([@lejunliu](https://github.com/lejunliu))
+- Lin Zheng ([@linzyeye](https://github.com/linzyeye)) 
+- Flora Peng ([@ywFlora-Peng](https://github.com/ywFlora-Peng)) 
+- Richard Wang ([@klxd2000](https://github.com/klxd2000))
+
 ## 📜 License
 MIT
