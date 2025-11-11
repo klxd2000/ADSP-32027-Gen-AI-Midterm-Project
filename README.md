@@ -41,12 +41,8 @@ Required (from this notebook):
 - gradio, IPython
 
 ## ⚙️ Configuration
-At the top of the notebook, define a simple **config cell** with reproducible defaults:
 ```python
-DATA_PATH = "path/to/data"               # adjust as needed
-MODEL_NAME = "BAAI/bge-small-en-v1.5"    # example embedding model
-TOP_K = 5
-SEED = 42
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 ```
 Downstream code should reference these variables rather than hidden widget state.
 
@@ -54,11 +50,6 @@ Downstream code should reference these variables rather than hidden widget state
 - **Metrics:** report retrieval metrics such as **Precision@k** and **Recall@k** (and optional MRR/NDCG/ARHR if relevant).
 - **How to interpret:** briefly explain each metric and what “good” looks like.
 - **Results:** include a small table/plot; you can place images under `assets/` and reference them here.
-
-## 🔁 Reproducibility
-- Fix random seeds (NumPy/Torch).
-- Provide data prep steps or a small sample dataset if applicable.
-- Verify the notebook runs from a fresh kernel via **Restart & Run All** (no manual state required).
 
 ## ❓ FAQ
 - **GitHub preview shows a widget error.** Use `GenAI_Midterm_clean.ipynb` (no widget metadata) or publish an HTML snapshot.
@@ -75,9 +66,6 @@ Then open **Settings → Pages**:
 - **Branch:** `main`, **Folder:** `/docs`
 
 After publishing, visit: `https://klxd2000.github.io/ADSP-32027-Gen-AI-Midterm-Project/`
-
-## 🙏 Acknowledgements
-List datasets, libraries, and references you used or were inspired by.
 
 ## 📜 License
 MIT
