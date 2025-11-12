@@ -3,17 +3,17 @@
 A reproducible notebook showcasing a small GenAI / RAG-style pipeline with clear defaults, evaluation, and run instructions.  
 Repository: https://github.com/klxd2000/ADSP-32027-Gen-AI-Midterm-Project
 
-## 🔗 Online
-- 📓 Full notebook: [`GenAI_Midterm.ipynb`](./GenAI_Midterm.ipynb)
-- 🧹 Clean preview (for GitHub rendering): [`GenAI_Midterm_clean.ipynb`](./GenAI_Midterm_clean.ipynb)
-- ▶️ Open in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/klxd2000/ADSP-32027-Gen-AI-Midterm-Project/blob/main/GenAI_Midterm.ipynb)
+## Online
+-  Full notebook: [`GenAI_Midterm.ipynb`](./GenAI_Midterm.ipynb)
+-  Clean preview (for GitHub rendering): [`GenAI_Midterm_clean.ipynb`](./GenAI_Midterm_clean.ipynb)
+-  Open in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/klxd2000/ADSP-32027-Gen-AI-Midterm-Project/blob/main/GenAI_Midterm.ipynb)
 
-## 📌 Summary
+## Summary
 - **Goal:** build a Retrieval-Augmented Generation (RAG) system to answer admissions-related queries for the UChicago MS-ADS program.
 - **Approach:** sentence-Transformers embeddings + vector similarity search (top-k) with structured prompting; a single config cell controls defaults and reproducibility..
 - **Outcome:** end-to-end RAG pipeline implementation and user-friendly chatbot web interface.
 
-## 🗂 Repository Structure
+## Repository Structure
 ```
 .
 ├─ GenAI_Midterm.ipynb          # main notebook (full, executable)
@@ -23,7 +23,7 @@ Repository: https://github.com/klxd2000/ADSP-32027-Gen-AI-Midterm-Project
    └─ post.html                 # optional: exported HTML snapshot for GitHub Pages
 ```
 
-## 🚀 Quick Start
+## Quick Start
 ```bash
 # Python 3.10+ recommended
 git clone https://github.com/klxd2000/ADSP-32027-Gen-AI-Midterm-Project.git
@@ -33,29 +33,29 @@ jupyter lab  # or: jupyter notebook
 ```
 Open `GenAI_Midterm.ipynb` and **Run All** from top to bottom.
 
-## 🧩 Environment
+## Environment
 Required (from this notebook):
 - numpy, pandas, matplotlib
 - sentence-transformers, chromadb, tqdm
 - beautifulsoup4, trafilatura
 - gradio, IPython
 
-## ⚙️ Configuration
+## Configuration
 ```python
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 ```
 Downstream code should reference these variables rather than hidden widget state.
 
-## 🧪 Evaluation
+## Evaluation
 - **Metrics:** report retrieval metrics such as **Precision@k** and **Recall@k** (and optional MRR/NDCG/ARHR if relevant).
 - **How to interpret:** briefly explain each metric and what “good” looks like.
 - **Results:** include a small table/plot; you can place images under `assets/` and reference them here.
 
-## ❓ FAQ
+## FAQ
 - **GitHub preview shows a widget error.** Use `GenAI_Midterm_clean.ipynb` (no widget metadata) or publish an HTML snapshot.
 - **Colab widgets do not display.** Try `pip install -q ipywidgets==8` and enable the custom widget manager where needed.
 
-## 📦 Export HTML & Pages (Optional)
+## Export HTML & Pages (Optional)
 Create a static “blog-like” snapshot and host it with GitHub Pages:
 ```bash
 pip install jupyter nbconvert
@@ -67,11 +67,11 @@ Then open **Settings → Pages**:
 
 After publishing, visit: `https://klxd2000.github.io/ADSP-32027-Gen-AI-Midterm-Project/`
 
-## 👥 Team
+## Team
 - Lejun Liu ([@lejunliu](https://github.com/lejunliu))
 - Lin Zheng ([@linzyeye](https://github.com/linzyeye)) 
 - Flora Peng ([@ywFlora-Peng](https://github.com/ywFlora-Peng)) 
 - Richard Wang ([@klxd2000](https://github.com/klxd2000))
 
-## 📜 License
+## License
 MIT
